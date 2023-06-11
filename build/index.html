@@ -11,49 +11,268 @@
 </head>
 <body>
     <!--TODO: create a navbar-->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand p-2" href="#home">
-          <img src="./images/logo.png" alt="ZPA logo" width="60" height="50">
+    <nav class="navbar navbar-expand-lg px-4 mt-0">
+      <div class="container-fluid mt-0">
+        <a id="brand-logo" class="navbar-brand fw-bold" href="#home">
+          ZPA
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav mx-auto">
-            <a class="nav-link mx-4" href="#home">Home</a>
-            <a class="nav-link mx-4" href="#about">About</a>
-            <a class="nav-link mx-4" href="#partners">Partners</a>
-            <a class="nav-link mx-4" href="#executive">Executive</a>
-            <a class="nav-link mx-4" href="#executive">Events</a>
-            <a class="nav-link mx-4" href="#executive">Donate</a>
-            <a class="nav-link mx-4" href="#executive">Contact</a>            
+          <div class="navbar-nav mx-auto" >
+            <a class="nav-link fw-bold mx-md-4 custom-navlinks" href="#home">Home</a>
+            <a class="nav-link mx-md-4 custom-navlinks" href="#about">About</a>
+            <a class="nav-link mx-md-4 custom-navlinks" href="#partners">Partners</a>
+            <a class="nav-link mx-md-4 custom-navlinks" href="#executive">Executive</a>
+            <a class="nav-link mx-md-4 custom-navlinks" style="display: none;" href="#executive">Events</a>
+            <a class="nav-link mx-md-4 custom-navlinks" href="#donate">Donate</a>
+            <a class="nav-link mx-md-4 custom-navlinks" href="#contact">Contact</a>            
           </div>
         </div>
       </div>
     </nav>
 
-    <section id="home">
-    <div class="container-fluid">
+    <section id="home" class="p-4">
+    <div class="container-fluid mb-4">
       <div class="row">
-        <div class="col-md-6 p-5 my-auto text-center">
-          <h1 class="text-wrap" style="font-size:5rem;"><span>Zambia</span> <br> <span>Paediatric Association</span> </h1> 
-          <p class="text-wrap">Execellence in Provision of Paediatric and Child Health Service</p>        
+        <div class="col-md-6 my-auto text-center">
+          <h1 id="zpa-thing" class="text-wrap text-start" ><span>Zambia</span> <br> <span>Paediatric Association</span> </h1> 
+          <p class="text-wrap text-start tag-line"> <span class="fw-bold" style="color:#4f46e5; font-style: italic;">Execellence</span> in Provision of Paediatric and <span class="fw-bold" style="color:#4f46e5; font-style: italic;">Child Health</span>  Services</p>        
         </div>
-        <div class="col-md-6 my-auto p-5 text-center">
-          <img class="img-fluid" src="./images/Untitled design.png" alt="drawing of kids faces">
+        <div class="col-md-6 my-auto text-center" >
+          <img class="img-fluid" src="./images/children playin.jpg" alt="drawing of kids faces">
         </div>
       </div>
     </div>
     </section>
-    <section id="#about">
+    <!--About section-->
+    <section id="about" class="p-4">
+      <div class="container-fluid text-center mt-4">
+       
+        <div class="row">
+          <div class="col-md-6 my-auto text-center">
+                   <h2>Vision</h2>
+            <div class="mx-auto">
+              <ul>
+                <li class="my-auto bi bi-check-circle text-start text-wrap fs-4"> Achieve excellence in the provision of paediatrics and child health services </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="./images/vision.png" alt="">
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="./images/ljtsv0dw.png" alt="">
+          </div>
+          <div class="col-md-6 my-auto mx-auto text-center">
+            <h2>Mission</h2>
+            <ul>
+              <li class=" my-auto bi bi-check-circle text-start text-wrap fs-4"> Achieving Excellence in the provision of quality health care to all children.</li>
+              <li class=" my-auto bi bi-check-circle text-start text-wrap fs-4"> Foster quality medical education of health care professionals.</li>
+              <li class=" my-auto bi bi-check-circle text-start text-wrap fs-4"> Promote research in all aspects of paediatrics and child care</li>
+            </ul>
+          </div>
+          <div class="col-md-6 my-auto mx-auto text-center">
+            <h2>Principles</h2>
+            <ul>
+              <li class=" my-auto bi bi-check-circle text-start text-wrap fs-4"> Advancement of the field of paediatrics and child health</li>
+              <li class=" my-auto bi bi-check-circle text-start text-wrap fs-4"> Providing advocacy for child health issues</li>
+              <li class=" my-auto bi bi-check-circle text-start text-wrap fs-4"> Provision of leadership to decision makers in all spheres of society regarding paediatrics and child health</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="./images/principles.png" alt="">
+          </div>
+        </div>
+      </div>
       
       
-      <ul>
-        <li class="bi bi-check-circle"> Getting Things Done </li>
-      </ul>
     </section>
 
+    <!-- Partners Section-->
+    <section id="partners">
+      <div class="container-fluid  text-center">
+        <h2 class="mt-4">Partners</h2>
+        <div class="row">
+          <div class="col-sm-3 p-4" >
+            <a href="https://www.fhi360.org/"><img style="height: 100px;" class="img-fluid" s src="./images/partners/fhi.png" alt="fhi logo"></a>
+          </div>
+          <div class="col-sm-3 p-4" >
+            <a href="https://www.path.org/"><img style="height: 100px;" class="img-fluid" src="./images/partners/path.png" alt="path logo"></a>
+          </div>
+          
+          <div class="col-sm-3 p-4" >
+            <a href="https://www.clintonhealthaccess.org/"><img style="height: 100px;" class="image-fluid" src="./images/partners/clinton health intiative.png" alt="clinton health initiative logo"></a>
+          </div>
+          <div class="col-sm-3 p-4" >
+            <a href="https://www.aap.org/"><img style="height: 100px;" class="img-fluid" src="./images/partners/aap.png" alt="AAP logo"></a>
+          </div>
+          <div class="col-sm-3 p-4">
+            <a href="https://www.moh.gov.zm"><img style="height: 100px;" class="image-fluid" src="./images/partners/moh.png" alt="MOH logo"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Executive Section-->
+    <section id="executive">
+      <div class="container-fluid text-center">
+        <h2>Executive</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3 text-start">
+              <div class="card">
+                <img src="./images/4520377.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 text-start">
+              <div class="card">
+                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 text-start">
+              <div class="card">
+                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 text-start">
+              <div class="card">
+                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 text-start">
+              <div class="card">
+                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 text-start">
+              <div class="card">
+                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 text-start">
+              <div class="card">
+                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 text-start">
+              <div class="card">
+                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="donate">
+      <div class="container-fluid text-center">
+        <h2>Donate</h2>
+        <div class="row">
+            <div class="col-md-3 mb-3 text-start">
+              <div class="card">
+                <img src="./images/6671.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3 text-start">
+              <div class="card">
+                <img src="./images/6671.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3 text-start">
+              <div class="card">
+                <img src="./images/6671.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 mb-3 text-start">
+              <div class="card">
+                <img src="./images/6671.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                   
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </section>
+    <!--Contact section-->
+    <section id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            this where you will find Us
+            <a href="https://goo.gl/maps/xpcejgvAgXzdPzPu7">Location</a>
+          </div>
+           <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3846.064665438641!2d28.30994362450633!3d-15.427060814016093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x19408cb9ecbead61%3A0x34fefb7130445315!2sPaediatric%20Centre%20of%20Excellence%2C%20Nationalist%2C%20Lusaka!3m2!1d-15.427050999999999!2d28.3124962!5e0!3m2!1sen!2szm!4v1686354090364!5m2!1sen!2szm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!--Footer Section-->
+    <footer></footer>
 
 <!--Bootstrap Javascript CDN-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

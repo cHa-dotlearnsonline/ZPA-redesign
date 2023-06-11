@@ -5,3 +5,57 @@
 ul {
   list-style-type: none;
 }
+
+body {
+  overflow-x: hidden !important;
+}
+
+.container-fluid {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+@media screen and (max-width:500px) {
+  #zpa-thing {
+    font-size: 2rem;
+    font-style: normal;
+  }
+}
+
+#zpa-thing {
+  font-size: 5rem;
+  font-style: normal;
+}
+
+.tag-line {
+  font-style: normal; 
+  font-size: 2rem;
+}
+
+nav {
+  background-color: #5b21b6;
+ 
+}
+
+#brand-logo {
+  color: #8b5cf6;
+  font-size: 3rem;
+}
+#brand-logo:hover {
+  color: #c084fc;
+}
+.custom-navlinks {
+  color: #9b51e0 !important;
+}
+
+#home {
+  background-color: #eae7f0;
+}
+
+.custom-navlinks:hover {
+  color: #d946ef !important;
+}
+
+#partners {
+  background-color: #eae7f0;
+}
