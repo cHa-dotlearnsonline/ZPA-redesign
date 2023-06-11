@@ -59,3 +59,26 @@ nav {
 #partners {
   background-color: #eae7f0;
 }
+
+.blobed-image {
+  border-radius:87% 13% 15% 85% / 88% 28% 72% 12% ;
+}
+
+.blobed-image1 {
+ border-radius: 68% 32% 65% 35% / 48% 62% 38% 52%; 
+}
+
+.blobed-image2 {
+  border-radius: 55% 45% 33% 67% / 54% 42% 58% 46%;
+}
+
+.second-heading {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #172554;
+}
+
+.descriptor {
+  font-size: 1.65rem;
+  padding: 0.8rem;
+}
