@@ -11,12 +11,12 @@
 </head>
 <body>
     <!--TODO: create a navbar-->
-    <nav class="navbar navbar-expand-lg px-4 mt-0">
+    <nav class="navbar sticky-top navbar-expand-lg px-4 mt-0">
       <div class="container-fluid mt-0">
         <a id="brand-logo" class="navbar-brand fw-bold" href="#home">
           ZPA
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -37,7 +37,7 @@
     <div class="container-fluid mb-4">
       <div class="row">
         <div class="col-md-6 my-auto text-center">
-          <h1 id="zpa-thing" class="text-wrap text-start" ><span>Zambia</span> <br> <span>Paediatric Association</span> </h1> 
+          <h1 id="zpa-thing" class="text-wrap text-start" ><span>Zambia</span> <br> <span class="text-wrap">Paediatric Association</span> </h1> 
           <p class="text-wrap text-start tag-line"> <span class="fw-bold" style="color:#4f46e5; font-style: italic;">Execellence</span> in Provision of Paediatric and <span class="fw-bold" style="color:#4f46e5; font-style: italic;">Child Health</span>  Services</p>        
         </div>
         <div class="col-md-6 my-auto text-center" >
@@ -66,7 +66,7 @@
            
           </div>
           <div class="container-fluid">
-            <div class="row  flex-column-reverse  flex-lg-row">
+            <div class="row  flex-column-reverse  flex-md-row">
               <div class="col-md-6">
                 <img class=" img-fluid blobed-image1" src="./images/hanna-morris-3EkT6xb4K9w-unsplash.jpg" alt="">
               </div>
@@ -99,9 +99,9 @@
     </section>
 
     <!-- Partners Section-->
-    <section id="partners">
+    <section id="partners" class="p-4">
       <div class="container-fluid  text-center">
-        <h2 class="mt-4 second-heading">Partners</h2>
+        <h2 class="my-4 second-heading">Partners</h2>
         <div class="row">
           <div class="col-sm-3 p-4" >
             <a href="https://www.fhi360.org/"><img style="height: 100px;" class="img-fluid" s src="./images/partners/fhi.png" alt="fhi logo"></a>
@@ -124,98 +124,136 @@
     </section>
 
     <!--Executive Section-->
-    <section id="executive">
+    <section id="executive" class="p-4">
+
       <div class="container-fluid text-center">
-        <h2 class="mt-4 second-heading">Executive</h2>
-        <div class="row">
-            <div class="col-md-4 mb-3 text-start">
-              <div class="card">
-                <img src="./images/4520377.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                   
-                </div>
+        <h2 class="my-4 second-heading">Executive</h2>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2500">
+              <div class="container-fluid text-center">
+                  <div class="row">
+                      <div class="col-md-4 mb-3 text-center">
+                          <div class="card border border-0">
+                            <img class="card-img-top rounded-circle" src="./images/executive/chalilwe chungu president.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Chalilwe Chungu</h5>
+                              <p class="card-text">President</p>  
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3 text-center">
+                          <div class="card border border-0">
+                            <img class="card-img-top rounded-circle" src="./images/executive/nfwama kawatu vice president.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Nfwama Kawatu</h5>
+                              <p class="card-text">Vice President</p>
+                               
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3 text-center">
+                          <div class="card border border-0">
+                            <img class="card-img-top rounded-circle" src="./images/executive/Donald mumba secretary general.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Donald Mumba</h5>
+                              <p class="card-text">Secretary General</p>
+                            </div>
+                          </div>
+                        </div> 
+                  </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3 text-start">
-              <div class="card">
-                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                   
-                </div>
+            <div class="carousel-item" data-bs-interval="2500">
+              <div class="container-fluid text-center">
+                  <div class="row">
+                      <div class="col-md-4 mb-3 text-center">
+                          <div class="card border border-0">
+                            <img class="card-img-top rounded-circle" src="./images/executive/Cheelo Mwiinga treasurer.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Cheelo Mwiinga</h5>
+                              <p class="card-text">Treasurer</p>
+                               
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3 text-center">
+                          <div class="card border border-0">
+                            <img class="card-img-top rounded-circle" src="./images/executive/Khozya Zyambo Secretary Research and Publications.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Khozya Zyambo</h5>
+                              <p class="card-text">Secretary Research and Publications</p>
+                               
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3 text-center">
+                          <div class="card border border-0">
+                            <img class="card-img-top rounded-circle" src="./images/executive/Manoj Mathew Secretary Business Development and Resource Mobilization.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Manoj Mathew</h5>
+                              <p class="card-text">Secretary Business Development and Resource Mobilization</p>
+                               
+                            </div>
+                          </div>
+                        </div>
+                  </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3 text-start">
-              <div class="card">
-                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                   
-                </div>
+            <div class="carousel-item" data-bs-interval="2500">
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-md-4 mb-3 text-center">
+                          <div class="card border border-0">
+                            <img class="card-img-top rounded-circle" src="./images/executive/chritina zulu publicity and communications.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <h5 class="card-title">Christina Zulu</h5>
+                              <p class="card-text">Publicity and Communications</p>    
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3 text-center">
+                          <div class="card border border-0">
+                            <img class="card-img-top rounded-circle" src="./images/executive/Natasha Namuziya secretary child and adolescent health.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Natasha Namuziya</h5>
+                              <p class="card-text">Secretary Child and Adolescent Health</p>                   
+                            </div>
+                          </div>
+                        </div>
+            
+                        <div class="col-md-4 mb-3 text-center">
+                          <div class="card border border-0">
+                            <img class="card-img-top rounded-circle" src="./images/executive/Chawanangwa Phiri IT consultant.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Chawanangwa Phiri</h5>
+                              <p class="card-text">Information & Technology Consultant</p>                   
+                            </div>
+                          </div>
+                        </div>
+                  </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3 text-start">
-              <div class="card">
-                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                   
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3 text-start">
-              <div class="card">
-                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                   
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3 text-start">
-              <div class="card">
-                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                   
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3 text-start">
-              <div class="card">
-                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                   
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3 text-start">
-              <div class="card">
-                <img src="./images/5929342.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                   
-                </div>
-              </div>
-            </div>
+      
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      
+
           
         </div>
-      </div>
     </section>
-
-    <section id="donate">
+ <!--Donate Section-->
+    <section id="donate" class="p-4">
       <div class="container-fluid text-center">
-        <h2 class="mt-4 second-heading">Donate</h2>
+        <h2 class="my-4 second-heading">Donate</h2>
         <div class="row">
             <div class="col-md-3 mb-3 text-start">
               <div class="card">
@@ -263,7 +301,7 @@
       </div>
     </section>
     <!--Contact section-->
-    <section id="contact">
+    <section id="contact" class="p-4">
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6">

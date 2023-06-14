@@ -17,11 +17,52 @@ body {
 
 @media screen and (max-width:500px) {
   #zpa-thing {
-    font-size: 2rem;
+    font-size: 4rem !important;
     font-style: normal;
+  }
+  .card-img-top {
+    width:100% !important;
+    height:100vw !important;
+    object-fit: cover !important;
+  }
+
+  .rounded-images {
+    border-radius: 2rem !important;
+  }
+  
+}
+@media screen and (min-width:530px) and (max-width:600px){
+  .card-img-top {
+    width:100% !important;
+    height:110vw !important;
+    object-fit: cover !important;
+  }
+}
+@media screen and (max-width:282px) {
+  #zpa-thing {
+    font-size: 2.5rem !important;
+  }
+  .second-heading {
+    font-size: 3rem !important;
   }
 }
 
+@media screen and (min-width:350px) and (max-width:385px) {
+  .second-heading {
+    font-size: 4rem !important;
+    font-weight: 600;
+    color: #172554;
+  }
+  #zpa-thing {
+    font-size:3.6rem !important;
+  }
+}
+
+@media screen and (min-width:810px) and (max-width:900px) {
+  #zpa-thing {
+    font-size: 4rem !important;
+  }
+}
 #zpa-thing {
   font-size: 5rem;
   font-style: normal;
@@ -45,10 +86,11 @@ nav {
   color: #c084fc;
 }
 .custom-navlinks {
-  color: #9b51e0 !important;
+  color:#8b5cf6 !important;
+  font-weight: 700 !important;
 }
 
-#home {
+#home, #donate {
   background-color: #eae7f0;
 }
 
@@ -82,3 +124,14 @@ nav {
   font-size: 1.65rem;
   padding: 0.8rem;
 }
+
+.rounded-images {
+  border-radius: 100%;
+}
+
+.card-img-top {
+  width:100%;
+  height:30vw;
+  object-fit: cover;
+}
+
