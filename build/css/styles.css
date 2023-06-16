@@ -135,3 +135,36 @@ nav {
   object-fit: cover;
 }
 
+.pecks {
+  font-size: 1.1em;
+}
+
+.gold {
+ background-color: #FFD700 !important;
+ color: #ad9405 !important;
+}
+
+.platinum {
+  background-color: #e5e4e2 !important;
+  color: #999692 !important;
+}
+
+.silver {
+  background-color: #C0C0C0 !important;
+  color: #9b9696 !important;
+}
+
+.bronze {
+  background-color: #CD7F32 !important;
+  color: #9b5814 !important;
+}
+
+.scroll-margin {
+  scroll-margin: 100px;
+}
+
+
+button.navbar-toggler:focus {
+  border: none;
+  box-shadow: none; 
+}
