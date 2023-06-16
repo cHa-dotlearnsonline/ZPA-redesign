@@ -38,6 +38,15 @@ body {
     object-fit: cover !important;
   }
 }
+
+@media screen and (min-width:750px) and (max-width:900px) {
+  .card-img-top {
+    width:100% !important;
+    height:120vw !important;
+    object-fit: cover !important;
+  }
+}
+
 @media screen and (max-width:282px) {
   #zpa-thing {
     font-size: 2.5rem !important;
@@ -167,4 +176,8 @@ nav {
 button.navbar-toggler:focus {
   border: none;
   box-shadow: none; 
+}
+
+a {
+  text-decoration: none !important;
 }
